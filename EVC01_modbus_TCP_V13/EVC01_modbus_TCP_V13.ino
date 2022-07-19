@@ -289,7 +289,7 @@ void readEthernet(void *parameter) {
             switch (modbusTcpRequest[7])   // check function such as 0x04, 0x01
             {
               case 0x04:
-                if (checkAddress >= 0x7530 && checkAddress <= 0x7551)   // address energy meter 30000 - 30019 address EV 30020-30033
+                if (checkAddress >= 0x7530 && checkAddress <= 0x7553)   // address energy meter 30000 - 30019 address EV 30020-30033
                 {
                   flag_task = true;
                   readModbus(modbusTcpRequest);
