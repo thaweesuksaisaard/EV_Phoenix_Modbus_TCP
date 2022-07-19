@@ -1,0 +1,23 @@
+Get En mode
+02 04 0F A0 00 01 32 CF
+
+Set En mode 0
+02 06 0F A0 00 00 8A CF
+
+Set En mode 1
+02 06 0F A0 00 01 4B 0F
+
+Set En mode 2
+02 06 0F A0 00 02 0B 0E
+
+Set En mode 3
+02 06 0F A0 00 03 CA CE
+
+Set coil 20000 ON
+02 05 4E 20 FF 00 9A EB
+
+Set coil 20000 OFF
+02 05 4E 20 00 00 DB 1B
+
+Get coil 20000
+02 01 4E 20 00 01 EB 1B
